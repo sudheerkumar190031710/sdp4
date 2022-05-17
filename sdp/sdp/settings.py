@@ -89,7 +89,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  
         'NAME': 'renew',  
         'USER': 'admin',  
-        'PASSWORD': 'Microsoft1',  
+        'PASSWORD': '',  
         'HOST': 'database-1.cqnalhbnnfak.ap-south-1.rds.amazonaws.com',  
         'PORT': '3306',  
     }
@@ -133,8 +133,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 #MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
 #MEDIA_URL = '/media/'
-AWS_ACCESS_KEY_ID = 'AKIAR7ZT5MDVQJVNPG5S'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 AWS_STORAGE_BUCKET_NAME = '190031710'
 AWS_S3_SIGNATURE_VERSION='s3v4'
 AWS_S3_REGION_NAME = 'ap-south-1'
